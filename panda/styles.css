@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    background-color: #E5E5E5;
+    justify-content: space-around;
+    padding-top: 100px;
+}
+
+.left-ear {
+    transform-origin: center center;
+    transform: rotate(40deg);
+}
+
+.right-ear {
+    transform-origin: center center;  
+    transform: rotate(140deg);
+}
+

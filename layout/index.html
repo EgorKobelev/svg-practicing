@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <title>layout</title>
+</head>
+<body>
+    <section class="How-it-work">
+        <div class="container">
+            <div class="How-it-work__container">
+                <h1 class="How-it-work__title">
+                    Как это работает?
+                </h1>
+                <ul class="How-it-work__list">
+                    <il class="How-it-work__item How-it-work__article">
+                        <svg class="article__image" width="375" height="288">
+                            <use xlink:href="sprites.svg#How-it-work__image--first"></use>
+                        </svg>
+                        <h2 class="article__title">
+                            Утренний <span class="article__title--last-word">кофе</span>
+                        </h2>
+                        <p class="article__description">
+                            Кофеин воздействует на центральную нервную систему как природный “будильник”. Поэтому мы быстрее просыпаемся.
+                        </p>
+                    </il>
+                    <il class="How-it-work__item How-it-work__article">
+                        <svg class="article__image" width="375" height="288">
+                            <use xlink:href="sprites.svg#How-it-work__image--second"></use>
+                        </svg>
+                        <h2 class="article__title">
+                            Час <span class="article__title--last-word"> медитации</span>
+                        </h2>
+                        <p class="article__description">
+                            После практик оба полушария мозга начинают работать сбалансированно — это привносит порядок в вашу жизнь.
+                        </p>
+                    </il>
+                    <il class="How-it-work__item How-it-work__article">
+                        <svg class="article__image" width="375" height="288">
+                            <use xlink:href="sprites.svg#How-it-work__image--third"></use>
+                        </svg>
+                        <h2 class="article__title">
+                           Вперед <span class="article__title--last-word">к свершениям!</span>
+                        </h2>
+                        <p class="article__description">
+                            Ресурсы каждого человека ограничены, поэтому нам необходимо беречь себя и вовремя останавливаться.
+                        </p>
+                    </il>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="integration">
+        <div class="container">
+            <div class="integration__container">
+                <div class="intergration__text-container">
+                    <h2 class="intergration__title">
+                        Интеграция со сторонними сервисами
+                    </h2>
+                    <p class="integration__description">
+                        Поможет всегда оставаться в курсе всех событий, быть максимально эффективным на протяжении всего рабочего дня, контролировать свои задачи и не опоздать на запланированные встречи.
+                    </p>
+                </div>
+                <div class="integration__images-container">
+                    <svg class="images__background" width="550" height="275">
+                        <use xlink:href="sprites.svg#ellipse"></use>
+                    </svg>
+                    <div class="integration__images-container--first-row">
+                        <svg class="integration__image" width="70" height="70">
+                            <use xlink:href="sprites.svg#facebook"></use>
+                        </svg>
+                        <svg class="integration__image" width="70" height="70">
+                            <use xlink:href="sprites.svg#trello-plain"></use>
+                        </svg>
+                        <svg class="integration__image" width="70" height="70">
+                            <use xlink:href="sprites.svg#worklio"></use>
+                        </svg>
+                        <svg class="integration__image" width="70" height="70">
+                            <use xlink:href="sprites.svg#dropbox"></use>
+                        </svg>
+                    </div>
+                    <div class="integration__images-container--second-row">
+                        <svg class="integration__image" width="70" height="70">
+                            <use xlink:href="sprites.svg#google"></use>
+                        </svg>
+                        <svg class="integration__image" width="70" height="70">
+                            <use xlink:href="sprites.svg#trello"></use>
+                        </svg>
+                        <svg class="integration__image" width="70" height="70">
+                            <use xlink:href="sprites.svg#slack"></use>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

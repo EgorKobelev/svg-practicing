@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SVG</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body> 
+    <div>
+        <svg class="panda" width="170" height="150" viewbox="0 0 150 170">
+            <use class="left-ear" xlink:href="#ear" x="-10" y="45"></use>
+            <use class="right-ear" xlink:href="#ear" x="-25" y="60"></use>
+            <circle r="70" cx="85" cy="80" fill="white" />    
+            <defs>
+                <g id="eye" viewbox="0 0 38 30">
+                    <ellipse ry="19" rx="15" cx="15" cy="19" fill="#4A4A4A" />
+                    <circle r="6.5" cx="15" cy="14" fill="black" />
+                    <circle r="3" cx="12.5" cy="12" fill="white" />
+                </g>
+                <g  id="nose" viewbox="0 0 14 18">
+                    <ellipse ry="7" rx="9" cx="9" cy="7" fill="black" />
+                </g>
+                <g id="ear" viewbox="0 0 50 36">
+                    <ellipse ry="25" rx="18" cx="18" cy="25" fill="#4A4A4A" />
+                    <ellipse ry="10" rx="6.5" cx="18" cy="25" fill="black" />
+                </g>
+            </defs>
+            <g>
+                <use xlink:href="#eye" x="37" y="65"></use>
+                <use xlink:href="#eye" x="103" y="65"></use>
+                <use xlink:href="#nose" x="76" y="94"></use>
+            </g>
+        </svg>
+    </div>
+</body>
+</html>
